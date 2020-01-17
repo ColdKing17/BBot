@@ -4,10 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node script.js"
-  },
-  "engines": {
-    "node": "12.14.1"
+    "start": "node script"
   },
   "repository": {
     "type": "git",
