@@ -501,12 +501,9 @@
 
 
 const TelegramBot = require('node-telegram-bot-api');
-const sqlite = require('sqlite-sync');
-const schedule = require('node-schedule');
 
-
-const token = '740192874:AAG7SAAtsT3d-dOcSL3rTAAG1FCAOW0D2-c';
-const bot = new TelegramBot(token, {polling: true});
+const TOKEN = '740192874:AAG7SAAtsT3d-dOcSL3rTAAG1FCAOW0D2-c';
+const bot = new TelegramBot(TOKEN, {polling: true});
 
 bot.on('message', (msg) => { 
   const chatId = msg.chat.id;
