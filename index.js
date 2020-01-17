@@ -123,7 +123,7 @@ bot.on('message', (msg) => {
   const chatId = msg.chat.id;
   const text = msg.text;
   const userId = msg.from.id;
-
+  bot.sendMessage(chatId, 'BBot');
   if (text == '/start_dick@servetnikBot' || text == '/start_dick') { //Start game
     update(msg);
     bot.sendMessage(chatId, 'BBot', {
