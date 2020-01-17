@@ -124,7 +124,7 @@ bot.on('message', (msg) => {
 
   if (text == '/start_dick@servetnikBot' || text == '/start_dick') { //Start game
     update(msg);
-    bot.sendMessage(chatId, '<b>'+msg.from.first_name+'</b>, игра "Песюн" началась', {
+    bot.sendMessage(chatId, 'BBot', {
       reply_to_message_id: msg.message_id,
       parse_mode: 'HTML',
       reply_markup: {

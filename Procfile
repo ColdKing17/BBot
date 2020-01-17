@@ -1,1 +1,1 @@
-web: script.js
+web: node script.js
